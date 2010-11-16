@@ -5,8 +5,6 @@ Sitename and company name need to be replaced with the company's name brand and 
 
 Choose a stylesheet for the desired theme and copy it into the root folder. Rename it to css.css.
 
-Cameron Moll - Therefore, mobile design is the art of communicating within an environment of mobility.
-
 rules:
 1- mobile first
 2- use well structured, meaningful markup
