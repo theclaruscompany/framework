@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*CSS document style by: www.theclaruscompany.com  2010 All Rights Reserved*/
+
+/* content */
+#gallery{display:block; width:100%; position:relative; height:350px;}
+#gallery img{border:none;}
+#gallery_nav{float:left; width:25%; text-align:center;}
+#gallery_output{float:left; width:75%; overflow:hidden; position:relative;}
+#gallery_output img{display:block; margin:20px auto 0 auto;}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*CSS document style by: www.theclaruscompany.com  2010 All Rights Reserved*/
+
+/* reset */
+html,body,div,span,img,applet,embed,canvas,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,b,u,i,s,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td,input,textarea,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,samp,small,strike,strong,sub,sup,tt,var,{margin:0px;padding:0px;border:0px;outline:0px;font-size:100%;background:transparent}html{color:#000;height:100%}body{line-height:1;height:100%}body,button,input,textarea{font:12px Arial, Helvetica, sans-serif}ol,ul{list-style:none;}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}ins{text-decoration:none}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-weight:bold}h1{font-size:1.5833em}h2{font-size:1.3333em}h3{font-size:1.1666em}h5,h6{font-size:.8333em}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}input,button,textarea,select{*font-size:100%}b,strong{font-weight:normal}del{text-decoration:line-through}a{color:#03c; text-decoration:none}a:hover{text-decoration:underline}.c{clear:both}
+
+/* holygrail */
+
+body{min-width:630px;/* 2 x (LC fullwidth + CC padding) + RC fullwidth */}
+#container{padding-left:0px; /* LC fullwidth */ padding-right:280px;/* RC fullwidth + CC padding */ width:670px; margin:0px auto;}
+#container .column{position:relative; float:left;}
+#center{padding:10px 20px;/* CC padding */width:100%;}
+#left{display:none;}
+#right{width:220px; /* RC width */padding:0 10px;/* RC padding */ margin-right:-100%;}
+#footer{clear:both;}
+* html #left{left:150px;/* IE Fix == RC fullwidth */}
+/* Equal-height Columns */
+#container{overflow:hidden;}
+#container .column{padding-bottom:1001em;/* X + padding-bottom */margin-bottom:-1000em;/* X */}
+/*** Footer Fix ***/
+* html body{overflow:hidden;}
+* html #footer-wrapper{float:left; position:relative; width:100%; padding-bottom:10010px; margin-bottom:-10000px; background:#FFF;/*** Same as body background ***/}
+
+/* content */
+body{margin:0; padding:0; background:#FFF;}
+#header, #footer{font-size:large; text-align:center; padding:0.3em 0; background:lightblue; position:relative; width:950px; margin:0px auto;} 
+#left{background:#fff; background:lightgreen;}
+#center{background:white;}
+#right{background:#fff; background:steelblue;}
+#container .column{padding-top:1em; text-align:justify;}
+#nav{ text-align:left; position:relative; height:15px;}
+#nav ul{padding:0px;}
+#nav ul li{ float:left; display:inline; padding-left:30px; line-height:15px; height:15px;}

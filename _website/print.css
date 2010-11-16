@@ -1,0 +1,7 @@
+@charset "utf-8";
+/*CSS document style by: www.theclaruscompany.com  2010 All Rights Reserved*/
+
+/* print */
+body{color:#000000; background:#ffffff; font-family:"Times New Roman", Times, serif; font-size:12pt;}
+a{text-decoration:underline; color:#0000ff;}
+#navigation, #advertising, #other{display:none;}
